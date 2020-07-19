@@ -1,8 +1,10 @@
 {
-    "users":[
-        {"nombre":"maria"},
-        {"nombre":"carlos"},
-        {"nombre":"pedro"},
-        {"nombre":"eduardo"}
-    ]
+  "users": [
+    { "nombre": "maria" },
+    { "nombre": "carlos" },
+    { "nombre": "pedro" },
+    { "nombre": "eduardo" },
+    { "nombre": "edison" },
+    { "nombre": "samuel" }
+  ]
 }
