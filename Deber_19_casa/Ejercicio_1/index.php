@@ -9,10 +9,9 @@
     <script type="text/javascript">
     $.getJSON("ajax.json",function(data)){
         for(usuario in data.users){
-            $("#usuarios".append("<
-                option>"+data.users[usuario].nombre+"</option>");
+            $("#usuarios".append("<option>"+data.users[usuario].nombre+"</option>"));
         }
-    });
-    
+    };
+    </script>
     </body>
     </html>>
