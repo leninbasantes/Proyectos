@@ -6,16 +6,18 @@
 
     </head>
     <body>
-	<p>Archivos JSON</p>
+	<p>Lo que contiene el JSON es: </p>
 	<select id="usuarios"></select>	
-</body>
+    </body>
 	
 <script type = "text/javascript" language = "javascript">
 	$.getJSON('ajax.json', function(data) { 
-		for(i in data.users){
-			console.log(data.users[i].nombre)
-			$('#usuarios').append("<option>"+data.users[i].nombre+"</option>")
+		for(usuario in data.users){
+			console.log(data.users[usuario].nombre)
+			$('#usuarios').append("<option>"+data.users[usuario].nombre+"</option>")
 		}
     });
 </script>
 </html>
+
+

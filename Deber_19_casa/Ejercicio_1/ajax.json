@@ -1,10 +1,12 @@
 {
   "users": [
-    { "nombre": "maria" },
-    { "nombre": "carlos" },
-    { "nombre": "pedro" },
-    { "nombre": "eduardo" },
-    { "nombre": "edison" },
-    { "nombre": "samuel" }
+    { "nombre": "lenin" },
+    { "nombre": "angel" },
+    { "nombre": "elayne" },
+    { "nombre": "fernanda" },
+    { "nombre": "romulo" },
+    { "nombre": "kevin" },
+    { "nombre": "thiago" },
+    { "nombre": "fernando" }
   ]
 }
