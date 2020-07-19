@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap'
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+body{
+	background-color:#6C3;
+}
+
+pi {
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+}
+i{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 22px;
+}
+id{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+de{
+	font-family: 'Libre Baskerville', serif;
+}

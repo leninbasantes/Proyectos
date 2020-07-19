@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+body p in{
+	color: #3C6;
+	text-decoration: underline;
+}
+body p re{
+	background-color: #03C;
+	color: #F00;
+}
+body p le{
+	font-size: 18px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+

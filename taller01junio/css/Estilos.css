@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-repeat: repeat;
+	background-color: #000;
+	background-image: url(../imagenes/fondo3.jpg);
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+}
+h1{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: xx-large;
+	text-align: center;
+	background-image: url(../imagenes/fondo4.jpg);
+}
+p no{
+	font-family: "Times New Roman", Times, serif;
+}
+p ci{
+	font-family: "Times New Roman", Times, serif;
+}
+p fecha{
+	font-family: "MS Serif", "New York", serif;
+}
+p refe{
+	font-size: 14px;
+}
+p refe fue{
+	color: #F00;
+}
+p vuelta{
+	font-size: 24px;
+	font-style: italic;
+}
+p fi{
+	font-family: Arial, Helvetica, sans-serif;
+}

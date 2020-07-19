@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lista-romanominuscula {
+  list-style-type: circle;
+}
+.Listaromamayu {
+  list-style-type:lower-roman;
+}
+.Listaromamayu {
+  list-style-type:decimal;
+}
+.Listaromamayu {
+  list-style-type:upper-roman;
+}
+.Listaromamayu {
+  list-style-type:hebrew;
+}
+
+

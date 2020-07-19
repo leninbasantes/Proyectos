@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/Estilos2.css" rel="stylesheet" type="text/css">
+</head>
+	<style>
+div {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
+</style>
+
+<body>
+	<h1>Evento "onmousemove" Mover el ratón</h1>
+
+<div id="raton"></div>
+
+<p>Nos mostrara las coordenadas.</p>
+
+<p id="coorde"></p>
+
+<script>
+document.getElementById("raton").onmousemove = function() {myFunction(event)};
+
+function myFunction(t) {
+    var z = t.clientX;
+    var u = t.clientY;
+    var coor = "Coordinates: (" + z + "," + u + ")";
+    document.getElementById("coorde").innerHTML = coor;
+}
+</script>
+	
+	</br>
+	<a href="../index.html">Regresar</a>
+
+</body>
+</html>

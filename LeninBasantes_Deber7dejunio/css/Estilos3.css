@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: Sathira;
+	src: url("../fuentes/Sathira.otf");
+}
+@font-face{
+	font-family: Dalgona;
+	src: url("../fuentes/Dalgona.otf");
+}
+@font-face{
+	font-family: Dandelions Bloom;
+	src: url("../fuentes/Dandelions Bloom.ttf");
+}
+
+#fuente-personaliada{
+	font-family: Sathira;
+	color: #C43638;
+}
+#fuente-personaliada2{
+	font-family: Dalgona;
+	color:#D484D9;
+}
+#fuente-personaliada3{
+	font-family: Dandelions Bloom;
+	color:#A4E5AF;
+}
+body{
+	background-image: url("../imagenes/imagen6.gif");
+	background-size: 100% 100%;
+	background-attachment:fixed;
+	margin: 0;
+	font-family: monospace;
+}
+body h3{
+	color:rgba(252,252,252,1.00);
+}

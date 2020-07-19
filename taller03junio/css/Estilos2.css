@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+body{
+	background-color:#C6F;
+	text-align: center;
+}
+
+.Titulo {
+	font-family: 'Fjalla One', sans-serif;
+	background-color:#CFC;
+	text-align: center;
+}
+.nombress {
+	font-family: 'EB Garamond', serif;
+	background-color: #6FF;
+	text-align: center;
+}
+.Nombres {
+	font-family: 'Permanent Marker', cursive;
+	background-color: #6FF;
+	text-align: center;
+}
+.TituGen {
+	font-family: 'Indie Flower', cursive;
+	color: #F00;
+	text-align: center;
+}
+.Anima {
+	font-family: 'Indie Flower', cursive;
+	background-color:#FF9;
+	text-align: center;
+}
+.Anima1 {
+	font-family: 'Indie Flower', cursive;
+	background-color:#FF9;
+}
+.Hombre {
+	font-family: 'Dancing Script', cursive;
+	background-color: #9F9;
+	text-align: center;
+}
+.Hombre1 {
+	font-family: 'Dancing Script', cursive;
+	background-color: #9F9;
+}
+.TeUni {
+	background-color:#99C;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+.Fila1 {
+	background-color:#90F;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+.Fila2 {
+	background-color:#6FF;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+.TituGen {
+	background-color: #6FF;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+}

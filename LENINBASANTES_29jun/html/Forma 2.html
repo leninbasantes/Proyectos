@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Forma</title>
+<link href="../css/EstilosForma1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="contenedor" id="contenedor">
+	<p id="primero">Primer parrafo</p>
+	<p id="segundo">Segundo parrafo</p>
+	<p id="tercer">Tercero parrafo</p>
+	<p id="cuarto">Cuarto parrafo</p>
+	<p id="quinto">Quinto parrafo</p>
+	<p>Sexto parrafo</p>
+	<p>Septimo parrafo</p>
+	<p>Octavo parrafo</p>
+	<p id="noveno">Noveno parrafo</p>
+	<p>------------------------------</p>
+    <p>crear nuevos parrafos</p> 
+	<button onclick="myFunction()">presionar</button> 
+	</br>
+
+
+	
+	 <script>
+
+		 var x = document.getElementById("contenedor"); 
+		 var y = x.getElementsByTagName("p");
+		 
+		 document.getElementById("noveno").innerHTML='Los parrafos anteriores encontrados son: '+ y[0].innerHTML;
+		 
+		 function myFunction() {
+			 for( var j=0;j<y.length;j++){
+		var para = document.createElement("P"); 
+		para.innerText = y[j].innerHTML; 
+		document.body.appendChild(para); 
+		
+		 }
+		 } 
+	 </script>
+	
+	<yt><a href="../index.html">Regresar</a></yt>
+
+</body>
+</html>

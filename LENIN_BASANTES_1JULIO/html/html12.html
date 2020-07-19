@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/Estilos2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>Evento "onmouseout" El ratón "sale" del elemento (pasa por encima de otro elemento) y "onmouseover" El ratón "entra" en el elemento (pasa por encima del elemento)</h1>
+
+<h1 id="raton">Palabra de prueba</h1>
+
+<script>
+document.getElementById("raton").onmouseover = function() {
+	mouseOver()
+};
+document.getElementById("raton").onmouseout = function() {
+	mouseOut()
+};
+
+function mouseOver() {
+    document.getElementById("raton").style.color = "blue";
+}
+
+function mouseOut() {
+    document.getElementById("raton").style.color = "black";
+}
+</script>
+	</br>
+	<a href="../index.html">Regresar</a>
+
+</body>
+</html>

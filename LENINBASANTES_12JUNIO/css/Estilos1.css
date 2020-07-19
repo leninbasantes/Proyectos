@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+input:valid,
+ textarea:valid {
+     background:#98E09A;
+ }
+ 
+ input:invalid,
+ textarea:invalid {
+     background:#CD8688;
+ }
+body{
+	background:#A5A4E0;	
+}
+body h1{
+	
+}

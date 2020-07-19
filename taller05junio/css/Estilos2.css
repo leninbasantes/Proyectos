@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+td + td {background-color: red;}
+td + td + td {background-color: green;}
+td + td + td + td {background-color: blue;}
+tr {color:#60F;}
+tr + tr {color:#9F3;}
+tr + tr + tr {color:#9FF;}
+tr + tr + tr + tr{color:#6F9;}
+tr + tr + tr + tr + tr{color:#CF3;}
+tr + tr + tr + tr + tr + tr{color:#FF6;}
+tr + tr + tr + tr + tr + tr + tr{color:#0C6;}
+tr + tr + tr + tr + tr + tr + tr + tr{color:#393;}
+
+

@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/Estilos2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<h1>Evento "onsubmit" Enviar el formulario</h1>
+
+
+<form id="myForm" action="demo_form.asp">
+  Introduzca el texto: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+document.getElementById("myForm").onsubmit = function() {myFunction()};
+
+function myFunction() {
+    alert("El formulario ha sido enviado");
+}
+</script>
+	</br>
+	<a href="../index.html">Regresar</a>
+
+</body>
+</html>

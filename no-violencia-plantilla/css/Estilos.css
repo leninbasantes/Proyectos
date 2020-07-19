@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#3C9;
+}
+body h1{
+	font-size: 36px;
+	text-align: center;
+}
+body p n{
+	text-decoration: none;
+	font-style: normal;
+	text-transform: none;
+	font-weight: bolder;
+	
+}
+body p su{
+	text-decoration: underline;
+	color: #F00;
+	
+}
+body p c{
+	color: #03F;
+	
+}
+body p ne{
+	fond-weihgt: 900;
+}

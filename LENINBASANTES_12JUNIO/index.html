@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="css/Estilos1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>FORMULARIO</h1>
+<form>
+<table width="200" border="1">
+  <tbody>
+    <tr>
+      <td>Nombre: </td>
+      <td><input name="nombre" type="text" placeholder="Minimo 5 letras" minlength="5" maxlength="20" required pattern="[A-Za-z]+"/></td>
+    </tr>
+    <tr>
+      <td>Correo: </td>
+	  <td><input name="email" type="email" placeholder="Debe tener (@)" minlength="5" maxlength="15"/></td>
+    </tr>
+    <tr>
+      <td>Contraseña: </td>
+      <td><input name="contraseña" type="password" placeholder="Mas de 4 diguitos max. 10" minlength="4" maxlength="10"/></td>
+    </tr>
+    <tr>
+      <td>Genero</td>
+      <td><p>
+  <label>
+    <input type="radio" name="genero" value="opción" id="genero_0">
+    Masculino</label>
+  <br>
+  <label>
+    <input type="radio" name="genero" value="opción" id="genero_1">
+    Femenino</label>
+  <br>
+  <label>
+    <input type="radio" name="genero" value="opción" id="genero_2">
+    Otros</label>
+  <br>
+</p></td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td><p>
+  <label>
+    <input type="radio" name="ocupacion" value="opción" id="ocupacion_0">
+    Estudiante</label>
+  <br>
+  <label>
+    <input type="radio" name="ocupacion" value="opción" id="ocupacion_1">
+    Trabajador</label>
+  <br>
+  <label>
+    <input type="radio" name="ocupacion" value="opción" id="ocupacion_2">
+    Otros</label>
+  <br>
+</p></td>
+    </tr>
+    <tr>
+      <td>Estado Civil</td>
+      <td>  <p>
+	  <label>
+	    <input type="radio" name="estadovicil" value="opción" id="estadovicil_0">
+	    Soltero</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="estadovicil" value="opción" id="estadovicil_1">
+	    Casado</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="estadovicil" value="opción" id="estadovicil_2">
+	    Divorciado</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="estadovicil" value="opción" id="estadovicil_3">
+	    Viudo</label>
+	  <br>
+  </p></td>
+    </tr>
+    <tr>
+      <td>¿Ha visitado otros paises?</td>
+      <td>  <p>
+	  <label>
+	    <input type="radio" name="paises" value="opción" id="paises_0">
+	    Si</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="paises" value="opción" id="paises_1">
+	    No</label>
+	  <br>
+  </p></td>
+    </tr>
+    <tr>
+      <td>Actividades</td>
+      <td>  <p>
+	  <label>
+	    <input type="radio" name="actividades" value="opción" id="actividades_0">
+	    Jugar Futbol</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="actividades" value="opción" id="actividades_1">
+	    Jugar Basquet</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="actividades" value="opción" id="actividades_2">
+	    Jugar Pin Pon</label>
+	  <br>
+  </p></td>
+    </tr>
+    <tr>
+      <td>Deportes</td>
+      <td><p>
+	  <label>
+	    <input type="radio" name="deportes" value="opción" id="deportes_0">
+	    Si</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="deportes" value="opción" id="deportes_1">
+	    No</label>
+	  <br>
+  </p></td>
+    </tr>
+    <tr>
+      <td>¿Has tenido un buen año este 2020?</td>
+      <td><p>
+	  <label>
+	    <input type="radio" name="año" value="opción" id="año_0">
+	    Si</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="año" value="opción" id="año_1">
+	    No</label>
+	  <br>
+  </p></td>
+    </tr>
+  </tbody>
+</table>
+<input name="enviar" type="submit" value="Enviar" />
+<input name="enviar" type="reset" value="Limpiar" />
+
+</form>
+	</br>
+	</br>
+	</br>
+</body>
+</html>

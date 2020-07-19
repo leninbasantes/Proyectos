@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	color: #600;
+	margin: 5px;
+	background-color: #C03;
+	background-image: url(../imagenes/fondo2.jpg);
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: left top;
+}
+nom{
+	color: #000;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+h1{
+	font-size: 50px;
+	background-image: url(../imagenes/fondo.jpg);
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+	text-transform: none;
+	color: #0F6;
+	text-decoration: underline blink;
+	line-height: normal;
+	text-align: center;
+}
+p n {
+	color: #C06;
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 14pt;
+	font-weight: bold;
+	font-variant: normal;
+}
+nom nom1{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+fuente{
+	color: #330;
+	font-size: 12px;
+}
+fuente enlace{
+	color: #00F;
+}
+vo{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	color: #C00;
+}

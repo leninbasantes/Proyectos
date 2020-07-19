@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Funciones</title>
+<link href="css/estilos3}.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>Uso de Funciones</h1>
+<h2>Ingresa numeros enteros</h2>
+<form action="php/indexp.php" method="post">
+ <input type="number" id="numero1" name="numero1entero" required placeholder="Inserta un numero entero"/>
+ <input type="number" id="numero2" name="numero2entero" required placeholder="Inserta un numero entero"/>
+ <input type="submit" name="numerosEnteros" value="Funciones Enteras"/>
+</form>
+	</br>
+<h2>Ingresa numeros decimales maximo con 3 decimales</h2>
+<form action="php/indexp.php"  method="post">
+ <input type="text" id="numero3" name="numero1flotante" required placeholder="Inserta un numero decimal" pattern="^\d*(\.\d{0,3})?$"/>
+ <input type="submit" name="numeroFlotantes"  value="Funciones Double"/>
+</form>
+	</br>
+<h2>Ingresa tus nombres completos</h2>	
+<form action="php/indexp.php"  method="post">
+ <input type="text " id="string1"  name="string1" required placeholder="Inserta tu primer nombre" pattern="[a-zA-Z]{2,48}"/>
+ <input type="text " id="string2 " name="string2" required placeholder="Inserta tu segundo nombre" pattern="[a-zA-Z]{2,48}"/>
+ <input type="text " id="string3 " name="string3" required placeholder="Inserta tu primer apellido" pattern="[a-zA-Z]{2,48}"/>
+ <input type="text " id="string4 " name="string4" required placeholder="Inserta tu segundo apellido" pattern="[a-zA-Z]{2,48}"/>
+ <input type="submit" name="String" value="Funciones String"/>
+</form>
+	
+</body>
+</html>
