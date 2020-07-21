@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script type="Text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<link rel="stylesheet" href="css/Estilos.css">
+</head>
+
+<body>
+  <h2>Datos personales</h2>
+  <form action="php/proceso.php">
+  <p>Nombre: <input type="text" name="nombre"></p><br/>
+  <p>Apellido: <input type="text" name="apellido"></p><br/>
+  <p>Genero: <div id="genero" >
+    <input type="checkbox" value="Masculino" id="genemascu" name="genero" /> Masculino<br/>
+    <input type="checkbox" value="Femenino" id="genefenino" name="genero" /> Femenino<br/>
+    <input type="checkbox" value="Otro" id="geneotro" name="genero" /> Otro<br/>
+  </div></p><br/>
+  <p>Edad: <input type="number" name="edad"></p><br/>
+  <p>Fecha: <input type="date" name="fecha"></p><br/>
+  <p>Email: <input type="email" name="email"></p><br/>
+  <p>Deseo recibir información: <input type="checkbox" name="acepto"></p><br/>
+  <p><input type="submit" value="Enviar"></p>
+  </form>	   
+  
+</body>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('input[type=checkbox]').live('click', function(){
+          var parent = $(this).parent().attr('id');
+          $('#'+parent+' input[type=checkbox]').removeAttr('checked');
+          $(this).attr('checked', 'checked');
+      });
+  });
+  </script>
+</html>

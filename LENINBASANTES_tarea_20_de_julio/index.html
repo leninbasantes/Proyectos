@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action="php/validacion.php" method="post">
+      <p>
+        Ingresa tu nombre : <input type="text" name="nombre" /> <br />
+        Ingresa tu apellido : <input type="text" name="apellido" /> <br />
+        Ingresa tu genero :<select name="genero" id="genero">
+          <option value="value1">Masculino</option>
+          <option value="value2">Femenino</option>
+          <option value="value3">Otro</option>
+        </select>
+        <br />
+        Ingresa tu edad :<input type="text" name="edad" /> <br />
+        Ingresa tu fecha :<input type="text" name="fecha" /> <br />
+        Ingresa tu email :<input type="text" name="email" /> <br />
+        <input type="submit" name="datospersonales" value="Datos personales" />
+      </p>
+    </form>
+  </body>
+</html>
