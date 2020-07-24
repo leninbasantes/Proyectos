@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/proceso.js"></script>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Deber 23 Julio</title>
+  </head>
+  <body>
+    <h1 align="center">Imprecion de vehiculo</h1>
+    <p id="vehiculos1"></p>
+    <p id="vehiculos2"></p>
+    <p id="vehiculos3"></p>
+    <p id="vehiculos4"></p>
+    <p id="vehiculos5"></p>
+    <p id="vehiculos6"></p>
+    <script>
+      var vehiculo1 = new vehiculo(
+        "Mazda",
+        "Sedan",
+        "PCA-4511",
+        "Lenin Basantes",
+        "4",
+        "4",
+        "6",
+        "0",
+        "Nuevo",
+        "415854523"
+      );
+
+      var vehiculo2 = new vehiculo(
+        "Chevroleth",
+        "Sedan",
+        "PCA-4545",
+        "Angel Basantes",
+        "4",
+        "4",
+        "6",
+        "0",
+        "Nuevo",
+        "414545423"
+      );
+
+      document.getElementById("vehiculos1").innerHTML = vehiculo1.avanzar();
+      document.getElementById("vehiculos2").innerHTML = vehiculo1.parar();
+      document.getElementById(
+        "vehiculos3"
+      ).innerHTML = vehiculo1.girarIzquierda();
+      document.getElementById(
+        "vehiculos4"
+      ).innerHTML = vehiculo2.girarDerecha();
+      document.getElementById("vehiculos5").innerHTML = vehiculo2.retroceder();
+      document.getElementById("vehiculos6").innerHTML = vehiculo2.encender();
+    </script>
+  </body>
+</html>
