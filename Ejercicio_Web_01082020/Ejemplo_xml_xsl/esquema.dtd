@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD generado con XMLSpy v2020 rel. 2 sp1 (x64) (http://www.altova.com) -->
+<!ELEMENT web (#PCDATA)>
+<!ATTLIST web
+	enlace CDATA #FIXED "https://www.exlibric.com/blog/personajes-novela/"
+>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT dibujo EMPTY>
+<!ATTLIST dibujo
+	ruta CDATA #REQUIRED
+>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT pelicula (personaje+)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT personaje (dibujo, nombre, telefono, email, web)>
+<!ATTLIST personaje
+	numero (1 | 2 | 3) #REQUIRED
+>

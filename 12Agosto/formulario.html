@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <div id="Contenedor">
+      <div class="Icon">
+        <img src="img/form.png" width="156" height="156" alt="" />
+      </div>
+      <div class="ContentForm" align="center">
+        <h2>Llene el siguiente formulario con sus datos</h2>
+
+        <form action="php/proceso.php" method="POST">
+          <p>
+            <label for="textfield">Nombres :</label>
+            <input type="text" name="text1" id="text1" />
+          </p>
+          <p>
+            <label for="textfield">Apellidos :</label>
+            <input type="text" name="text2" id="text2" />
+          </p>
+
+          <p>
+            <label for="textfield">Telefono :</label>
+            <input type="number" name="text3" id="text3" />
+          </p>
+          <p>
+            <label for="textfield">Cedula : </label>
+            <input type="number" name="text4" id="text4" />
+          </p>
+
+          <p>
+            <label for="textfield">Estado Civil : </label>
+            <input type="text" name="text5" id="text5" />
+          </p>
+
+          <p>
+            <label for="textfield">Genero : </label>
+            <input type="text" name="text6" id="text6" />
+          </p>
+          <p>
+            <label for="textfield">Direccion : </label>
+            <input type="text" name="text7" id="text7" />
+          </p>
+          <p>
+            <label for="textfield">Email: </label>
+            <input type="email" name="text8" id="text8" />
+          </p>
+          <input name="enviar" id="enviar" type="submit" value="Enviar" onclick="return validar()" />
+          <input name="limpiar" id="lipiar" type="reset" value="Limpiar" />
+        </form>
+      </div>
+    </div>
+    <script src="js/validaciones.js"></script>
+  </body>
+</html>

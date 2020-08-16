@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+nombreCentro,web{
+	display: block;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-weight: bold;
+	text-transform: uppercase;
+}
+ciclos {
+  display: table;
+	margin-left: 200px;
+  border-spacing: 10px;
+  border: black 1px solid;
+}
+
+ciclo {
+  display: table-row;
+}
+
+nombre, grado, decretoTitulo {
+  border: black 1px solid;
+  display: table-cell;
+}

@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+ nombreCentro, web,nombre,grado,decretoTitulo{
+  display: list-item;
+  list-style: disc inside;
+  margin-left: 20px;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="js/validaciones.js"></script>
+    <title>Formulario con Base de Datos</title>
+  </head>
+  <body>
+    <div class="form">
+      <h1>FORMULARIO DE REGISTRO</h1>
+      <form
+        action="php/BD.php"
+        method="POST"
+        class="form-register"
+        onsubmit="return validar();"
+      >
+        <label for="cedula">La Cedula </label>
+        <input
+          class="controls"
+          id="cedula"
+          type="text"
+          name="cedula"
+          placeholder="Ingrese la cedula"
+          required
+        />
+        <br />
+        <label for="nombre">Los Nombres </label>
+        <input
+          class="controls"
+          id="nombre"
+          type="text"
+          name="nombre"
+          placeholder="Ingrese los nombres"
+          required
+        />
+        <br />
+        <label for="apellido">Los Apellidos </label>
+        <input
+          class="controls"
+          id="apellido"
+          type="text"
+          name="apellido"
+          placeholder="Ingrese los apellidos"
+          required
+        />
+        <br />
+        <label for="ciudad">La Ciudad donde nacio </label>
+        <input
+          class="controls"
+          id="ciudad"
+          type="text"
+          name="ciudad"
+          placeholder="Ingrese la ciudad"
+          required
+        />
+        <br />
+        <label for="edad">La Edad</label>
+        <input
+          class="controls"
+          id="edad"
+          type="text"
+          name="edad"
+          placeholder="Ingrese la edad"
+          required
+        />
+        <br />
+        <label for="direccion">La Direccion del Domicilio</label>
+        <input
+          class="controls"
+          id="direccion"
+          type="text"
+          name="direccion"
+          placeholder="Ingrese la direccion"
+          required
+        />
+        <br />
+        <label for="curso">Nombre del Curso</label>
+        <input
+          class="controls"
+          id="curso"
+          type="text"
+          name="curso"
+          placeholder="Ingrese el curso"
+          required
+        />
+        <br />
+        <label for="tutor">Nombre del Tutor</label>
+        <input
+          class="controls"
+          id="tutor"
+          type="text"
+          name="tutor"
+          placeholder="Ingrese el Tutor"
+          required
+        />
+        <br />
+        <label for="duracion">La Duracion del Curso (meses)</label>
+        <input
+          class="controls"
+          id="duracion"
+          type="text"
+          name="duracion"
+          placeholder="Ingrese la duracion"
+          required
+        />
+        <br />
+        <label for="horas">Horas por Dia</label>
+        <input
+          class="controls"
+          id="horas"
+          type="text"
+          name="horas"
+          placeholder="Ingrese las horas"
+          required
+        />
+        <br />
+        <label for="telefono">Telefono del Tutor</label>
+        <input
+          class="controls"
+          id="telefono"
+          type="text"
+          name="telefono"
+          placeholder="Ingrese el telefono"
+          required
+        />
+        <br />
+        <label for="sede">Nombre de la Sede</label>
+        <input
+          class="controls"
+          type="text"
+          name="sede"
+          id="sede"
+          placeholder="Ingrese la sede"
+          required
+        />
+        <br />
+        <label for="ciudad">Ciudad de la Sede</label>
+        <input
+          class="controls"
+          id="ciudadsede"
+          type="text"
+          name="ciudadsede"
+          placeholder="Ingrese la Ciudad"
+          required
+        />
+        <br />
+        <label for="valor">El Valor a Pagar</label>
+        <input
+          class="controls"
+          id="valor"
+          type="text"
+          name="valor"
+          placeholder="Ingrese el valor"
+          required
+        />
+        <br />
+        <label for="pago">La Forma de Pago</label>
+        <input
+          class="controls"
+          id="pago"
+          type="text"
+          name="pago"
+          placeholder="Ingrese la Forma de Pago"
+          required
+        />
+        <br />
+        <input class="botons" type="submit" value="Enviar" />
+      </form>
+    </div>
+  </body>
+</html>

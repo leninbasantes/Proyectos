@@ -1,0 +1,100 @@
+{
+  "personas": [
+    {
+      "nombre": "Lenin Basantes",
+      "altura": 1.68,
+      "peso": 75,
+      "pasatiempos": ["Comics", "Futbol", "Series", "Gaming"],
+      "soltero": true,
+      "direccion": {
+        "calle": "Lorenzo Diaz",
+        "numero": "09",
+        "pais": "Ecuador"
+      }
+    },
+    {
+      "nombre": "Angel Basantes",
+      "altura": 1.7,
+      "peso": 60,
+      "pasatiempos": ["Videojuegos", "Jugar", "Ver TV"],
+      "soltero": true,
+      "direccion": {
+        "calle": "Lorenzo Diaz",
+        "numero": "09",
+        "pais": "Ecuador"
+      }
+    },
+    {
+      "nombre": "Romulo Basantes",
+      "altura": 1.72,
+      "peso": 78,
+      "pasatiempos": ["Electronica", "Futbol", "Carreras"],
+      "soltero": false,
+      "direccion": {
+        "calle": "Comite del Pueblo",
+        "numero": "101",
+        "pais": "Ecuador"
+      }
+    },
+    {
+      "nombre": "Patrick Barbaran",
+      "altura": 1.85,
+      "peso": 85,
+      "pasatiempos": ["Viajes", "Fotografia"],
+      "soltero": true,
+      "direccion": {
+        "calle": "Berlin",
+        "numero": "78",
+        "pais": "Alemania"
+      }
+    },
+    {
+      "nombre": "Erika Vizueta",
+      "altura": 1.5,
+      "peso": 60,
+      "pasatiempos": ["Negocios", "Fotografia"],
+      "soltero": false,
+      "direccion": {
+        "calle": "Las Vegas",
+        "numero": "2",
+        "pais": "EE.UU"
+      }
+    },
+    {
+      "nombre": "Fernanda Intriago",
+      "altura": 1.55,
+      "peso": 69,
+      "pasatiempos": ["Ejercicio", "Vida Saludable"],
+      "soltero": true,
+      "direccion": {
+        "calle": "Lorenzo Diaz",
+        "numero": "09",
+        "pais": "Ecuador"
+      }
+    },
+    {
+      "nombre": "Kevin Basantes",
+      "altura": 1.72,
+      "peso": 81,
+      "pasatiempos": ["Video Juegos", "Futbol"],
+      "soltero": false,
+      "direccion": {
+        "calle": "Comite del Pueblo",
+        "numero": "08",
+        "pais": "Ecuador"
+      }
+    },
+    {
+      "nombre": "Ivonne Basantes",
+      "altura": 1.6,
+      "peso": 69,
+      "pasatiempos": ["Periodimos", "Atletismo"],
+      "soltero": false,
+      "direccion": {
+        "calle": "Floresta",
+        "numero": "004",
+        "pais": "Ecuador"
+      }
+    }
+  ]
+}

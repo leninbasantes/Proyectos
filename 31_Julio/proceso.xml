@@ -1,0 +1,23 @@
+<pelicula>
+	<personaje numero="1">
+		<dibujo ruta="img/protagonista.jpg"/>
+		<nombre>Protagonista</nombre>
+		<telefono>666555444</telefono>
+		<email>mortadelo@yahoo.com</email>
+		<web enlace="https://www.exlibric.com/blog/personajes-novela/">Los personajes</web>
+	</personaje>
+    <personaje numero="2">
+		<dibujo ruta="img/protagonista.jpg"/>
+		<nombre>Pincipal</nombre>
+		<telefono>0983498106</telefono>
+		<email>ojodeajo@yahoo.com</email>
+		<web enlace="https://www.exlibric.com/blog/personajes-novela/">Los personajes</web>
+	</personaje>
+    <personaje numero="3">
+		<dibujo ruta="img/protagonista.jpg"/>
+		<nombre>Auxiliar</nombre>
+		<telefono>09834687</telefono>
+		<email>unahamburguesa@yahoo.com</email>
+		<web enlace="https://www.exlibric.com/blog/personajes-novela/">Los personajes</web>
+	</personaje>
+</pelicula>

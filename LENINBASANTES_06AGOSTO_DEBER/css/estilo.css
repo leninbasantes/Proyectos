@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+#text1,
+#text2 {
+  color: goldenrod;
+}
+body {
+  font-size: 20px;
+  background-color: thistle;
+}
+
+h1 {
+  color: lime;
+  text-align: center;
+}
+
+table {
+  align-content: center;
+  background-color: rgb(180, 218, 132);
+}
+#Contenedor {
+  width: 500px;
+  margin: 70px auto;
+  background-color: #be5b5b;
+  border: 1px solid #e78888;
+  height: 600px;
+  border-radius: 8px;
+  padding: 0px 9px 0px 9px;
+}
+
+.Icon {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(104, 136, 177);
+  font-size: 50px;
+  text-align: center;
+}
+
+.opcioncontra {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}

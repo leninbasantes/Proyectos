@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/fonso.png");
+}
+
+.form {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.form h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c1;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.form p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.botons {
+  width: 100%;
+  border: none;
+  background-color: rgb(73, 73, 160);
+  color: white;
+  margin: 16px 0;
+  font-size: 20px;
+  padding: 12px;
+}
+
+.probando {
+  width: 100%;
+  border: none;
+  color: rgb(7, 46, 105);
+  margin: 16px 0;
+  font-size: 15px;
+  padding: 15px;
+}
+.comple {
+  width: 100%;
+  border: none;
+  color: white;
+  margin: 16px 0;
+  font-size: 30px;
+  padding: 15px;
+}

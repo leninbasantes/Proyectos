@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD generado con XMLSpy v2020 rel. 2 sp1 (x64) (http://www.altova.com) -->
+<!ELEMENT Zip (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Item (ProductName, Quantity, USPrice, (ShipDate | Comment)?)>
+<!ATTLIST Item
+	PartNumber (456-NM | 872-AA | 898-AM | 898-AZ | 926-AA) #REQUIRED
+>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Items (Item+)>
+<!ELEMENT State (#PCDATA)>
+<!ELEMENT Street (#PCDATA)>
+<!ELEMENT aw:Qty (#PCDATA)>
+<!ELEMENT aw:Zip (#PCDATA)>
+<!ELEMENT Address (Name, Street, City, State, Zip, Country)>
+<!ATTLIST Address
+	Type (Billing | Shipping) #REQUIRED
+>
+<!ELEMENT Comment (#PCDATA)>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT USPrice (#PCDATA)>
+<!ELEMENT aw:City (#PCDATA)>
+<!ELEMENT aw:Item (aw:ProductID, aw:Qty, aw:Price)>
+<!ATTLIST aw:Item
+	PartNum (LIT-01 | LIT-25) #REQUIRED
+>
+<!ELEMENT aw:Name (#PCDATA)>
+<!ELEMENT Quantity (#PCDATA)>
+<!ELEMENT ShipDate (#PCDATA)>
+<!ELEMENT aw:Price (#PCDATA)>
+<!ELEMENT aw:State (#PCDATA)>
+<!ELEMENT aw:Street (#PCDATA)>
+<!ELEMENT aw:Country (#PCDATA)>
+<!ELEMENT ProductName (#PCDATA)>
+<!ELEMENT aw:ProductID (#PCDATA)>
+<!ELEMENT DeliveryNotes (#PCDATA)>
+<!ELEMENT PurchaseOrder (Address+, DeliveryNotes, Items)>
+<!ATTLIST PurchaseOrder
+	PurchaseOrderNumber (99503 | 99504 | 99505) #REQUIRED
+	OrderDate (1999-10-20 | 1999-10-22) #REQUIRED
+>
+<!ELEMENT PurchaseOrders (PurchaseOrder+, aw:PurchaseOrder)>
+<!ATTLIST PurchaseOrders
+	xmlns CDATA #FIXED "www.contoso.com"
+>
+<!ELEMENT aw:PurchaseOrder (aw:ShippingAddress, aw:BillingAddress, aw:DeliveryInstructions, aw:Item+)>
+<!ATTLIST aw:PurchaseOrder
+	PONumber CDATA #FIXED "11223"
+	Date CDATA #FIXED "2000-01-15"
+	xmlns:aw CDATA #FIXED "http://www.adventure-works.com"
+>
+<!ELEMENT aw:BillingAddress (aw:Name, aw:Street, aw:City, aw:State, aw:Zip, aw:Country)>
+<!ELEMENT aw:ShippingAddress (aw:Name, aw:Street, aw:City, aw:State, aw:Zip, aw:Country)>
+<!ELEMENT aw:DeliveryInstructions (#PCDATA)>

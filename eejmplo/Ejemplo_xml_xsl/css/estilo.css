@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+h1 { font: bold 25px arial; text-align: center; padding: 10px; }
+.personaje { background: #e1f6ff ;border: 15px double maroon; 
+             margin: 30px; padding: 5px; }
+.personaje h3 { font: bold 17px arial; margin: 0; padding: 5px; }
+.personaje li { list-style-type: square; font: normal 14px arial;
+                margin: 5px; }
+.personaje li a { text-decoration: none; color: maroon; }
+.personaje li a:hover { text-decoration: none; color: fuchsia; }
+

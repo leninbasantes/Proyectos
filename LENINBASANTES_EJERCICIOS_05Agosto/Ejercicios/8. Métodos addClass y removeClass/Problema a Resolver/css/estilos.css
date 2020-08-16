@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.titulo
+{
+  font-family:arial;
+  font-weight: normal;
+  background-color: #6495ed;
+  color:#ff0;
+}
+
+.cuerpo {
+  border: 1px solid #000;
+  padding: .5em;
+  background-color:#ed8f63;
+  width:100px;
+  text-align:center;
+}

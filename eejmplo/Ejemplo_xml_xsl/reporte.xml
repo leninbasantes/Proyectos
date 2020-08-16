@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/formato.xsl"?>
+<pelicula>
+	<personaje numero="1">
+		<dibujo ruta="img/protagonista.jpg"/>
+		<nombre>Protagonista</nombre>
+		<telefono>666555444</telefono>
+		<email>mortadelo@yahoo.com</email>
+		<web enlace="https://www.exlibric.com/blog/personajes-novela/">Los personajes</web>
+	</personaje>
+	<personaje numero="2">
+		<dibujo ruta="img/secundario.jpg"/>
+		<nombre>Secundario</nombre>
+		<telefono>665544332</telefono>
+		<email>filemon@gmail.com</email>
+		<web enlace="https://www.exlibric.com/blog/personajes-novela/">Los personajes</web>
+	</personaje>
+	<personaje numero="3">
+		<dibujo ruta="img/antagonista.jpg"/>
+		<nombre>Antagonista</nombre>
+		<telefono>678901234</telefono>
+		<email>supervicen@hotmail.com</email>
+		<web enlace="https://www.exlibric.com/blog/personajes-novela/">Los personajes de peliculas</web>
+	</personaje>
+</pelicula>

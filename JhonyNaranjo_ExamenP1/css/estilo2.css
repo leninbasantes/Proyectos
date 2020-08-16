@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+ciclos {
+  counter-reset: contador;
+}
+
+ciclo:before {
+  content: counter(contador, decimal) ".";
+  counter-increment: contador;
+}
+nombreCentro,web{
+	display: block;
+}
+
+grado,decretoTitulo{
+	  display: list-item;
+  list-style: circle;
+  margin-left: 20px;
+}

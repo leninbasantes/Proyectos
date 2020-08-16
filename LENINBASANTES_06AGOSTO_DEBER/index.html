@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Documento sin título</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/funciones.js"></script>
+  </head>
+
+  <body>
+    <h1>Formulario</h1>
+    <div id="Contenedor">
+      <div class="Icon">
+        <img src="img/form.png" width="156" height="156" alt="" />
+      </div>
+      <div class="ContentForm" align="center">
+        <h2>Llene el siguiente formulario con sus datos</h2>
+
+        <form action="php/proceso.php" method="get">
+          <p>
+            <label for="textfield">Nombre :</label>
+            <input type="text" name="text1" id="text1" />
+          </p>
+          <p>
+            <label for="textfield">Apellido :</label>
+            <input type="text" name="text2" id="text2" />
+          </p>
+
+          <p>
+            <label for="textfield">Edad:</label>
+            <input type="text" name="text3" id="text3" />
+          </p>
+
+          <p>
+            Fecha de Nacimiento
+            <input type="date" />
+          </p>
+
+          <p>
+            <label for="textfield">Carrera: </label>
+            <input type="text" name="text4" id="text4" />
+          </p>
+
+          <p>
+            <label for="textfield">Nivel: </label>
+            <input type="text" name="text5" id="text5" />
+          </p>
+
+          <input name="enviar" id="enviar" type="submit" value="Enviar" />
+          <input name="limpiar" id="lipiar" type="reset" value="Limpiar" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
