@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Inscripcion</title>
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+<script src="../js/validacionInscripcio.js"></script>
+</head>
+
+<body>
+	<form method="post" onSubmit="return validar();" action="../php/inscripciones.php">
+	  <section class="Formulario">
+		<h4>Inscripción</h4>
+		<input class="controls" type="number" name="cedula" id="cedula" placeholder="Cédula" onBlur="validarCedula();">
+		<input  class="controls" type="text" name="nombreAlumno" id="nombreAlumno" placeholder="Ingresar Nombre de Alumno">
+		<input class="controls" type="text" name="curso" id="curso" placeholder="Curso">
+		<input class="controls" type="text" name="fechaInscripcion" id="fechaInscripcion" placeholder="Fecha de Inscripcion" onFocus="(this.type='date')" onBlur="(this.type='text')" >
+		<input class="controls" type="text" name="formaPago" id="formaPago" placeholder="Forma de Pago $">
+		<input class="controls" type="number" name="estado" id="estado" placeholder="Estado">		  
+		<input class="boton" type="submit" value="Registrar">
+	  </section>
+	</form>
+</body>
+</html>

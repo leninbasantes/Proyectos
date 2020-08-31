@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Curso</title>
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+<script src="../js/validacionCurso.js"></script>
+</head>
+
+<body>
+	<form method="post" onSubmit="return validar();" action="../php/cursos.php">
+	  <section class="Formulario">
+		<h4>Curso</h4>
+		<input class="controls" type="text" name="curso" id="curso" placeholder="Curso">
+		<input class="controls" type="text" name="fechaIni" id="fechaIni" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Ingresar Fecha de Inicio de Curso">  
+		<input class="controls" type="number" name="nHoras" id="nHoras" placeholder="Número de Horas">  
+		<input  class="controls" type="number" name="costo" id="costo" placeholder="Ingresar Costo de Curso">
+		<input class="boton" type="submit" value="Registrar">
+	  </section>
+	</form>
+</body>
+</html>

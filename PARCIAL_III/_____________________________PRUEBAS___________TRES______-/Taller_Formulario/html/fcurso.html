@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/estilosm.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="../js/proceso1.js"></script>
+    <title>Formulario Curso</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulario de Curso</h1>
+      <nav>
+        <a href="../html/menu.html">Inicio</a>
+        <a href="../html/falumno.html">Alumno</a>
+        <a href="../html/fcurso.html">Curso</a>
+        <a href="../html/finscripcion.html">Incripcion</a>
+      </nav>
+    </header>
+
+    <div class="form-register">
+      <form action="../php/curso.php" method="POST" id="form" onclick="verificar();">
+        <div class="form">
+          <h1>Registro</h1>
+          <div class="grupo">
+            <input type="text" name="nombrecurso" id="nombrecurso" /><span
+              class="barra"
+            ></span>
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-exclamation-circle"></i>
+            <small>Error message</small>
+            <label for="nombrecurso">Ingrese el nombre del Curso</label>
+          </div>
+          <div class="grupo">
+            <input type="date" name="fcurso" id="fcurso" /><span
+              class="barra"
+            ></span>
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-exclamation-circle"></i>
+            <small>Error message</small>
+            <label for="fcurso">Fecha de Incio</label>
+          </div>
+          <div class="grupo">
+            <input type="number" name="hcurso" id="hcurso" /><span
+              class="barra"
+            ></span>
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-exclamation-circle"></i>
+            <small>Error message</small>
+            <label for="hcurso">Horas del Curso</label>
+          </div>
+          <div class="grupo">
+            <input type="number" name="cocurso" id="cocurso" /><span
+              class="barra"
+            ></span>
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-exclamation-circle"></i>
+            <small>Error message</small>
+            <label for="cocurso">Costo Curso</label>
+          </div>
+          <input type="submit" value="Enviar" class="botons" />
+          <input type="reset" value="Borrar información" class="botons" />
+        </div>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="../js/forma.js"></script>
+    <script src="../js/proceso1.js"></script>
+  </body>
+</html>

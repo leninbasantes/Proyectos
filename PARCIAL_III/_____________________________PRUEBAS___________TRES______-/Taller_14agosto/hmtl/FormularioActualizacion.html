@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Alumno</title>
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+<script src="../js/validacionAlumno.js"></script>
+</head>
+
+<body>
+	<form method="post" onSubmit="return validar();" action="../php/alumnos.php">
+	  <section class="Formulario">
+		<h4>Alumno</h4>
+		<input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingresar Nombres">
+		<input  class="controls" type="text" name="apellido" id="apellido" placeholder="Ingresar Apellidos">
+		<input class="controls" type="text" name="direccion" id="direccion" placeholder="Ingresar Dirección">
+		<input class="controls" type="number" name="cedula" id="cedula" placeholder="Ingresar Cédula" onBlur="validarCedula();" disabled>
+		<input class="controls" type="number" name="telefono" id="telefono" placeholder="Ingresar Teléfono">  
+		<input class="controls" type="email" name="email" id="email" placeholder="Ingresar Email">
+		<select  class="controls" name="eCivil" id="eCivil">
+			<option>Soltero</option>
+			<option>Casado</option>
+			<option>Divorciado</option>
+		</select>
+		<input class="controls" type="text" id="fNacimiento" name="fNacimiento" onFocus="(this.type='date')" onBlur="(this.type='text')" placeholder="Ingresar Fecha de Nacimiento" > 
+		<input class="controls" type="password" id="contraseña" name="contraseña" placeholder="Ingresar Contraseña"> 
+		<input class="boton" type="submit" value="Registrar">
+	  </section>
+	</form>
+</body>
+
+</html>
